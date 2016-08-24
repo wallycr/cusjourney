@@ -1,0 +1,22 @@
+// Module-16
+//
+
+.modclass-16 {
+	background-repeat: no-repeat;
+	background-color: $module-gray-lightest;
+	background-position:center bottom;
+	background-image:url('../img/background01.jpg');
+	background-color:$primary-footer-bg;
+	background-size: cover;
+	color:$primary-footer-font-color;
+	padding-top:100px;
+	.light-panel {
+		background-color: $primary-light-color;
+		margin-bottom:550px;
+		border-top-style: solid;
+		border-width: 90px 100vw 0 0;
+		border-color: $primary-light-color transparent transparent transparent;
+		transform: scale(1.0001);
+		padding:100px;
+	}
+}

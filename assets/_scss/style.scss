@@ -1,0 +1,20 @@
+// Pages
+//
+// Custom styles for diferent pages of the site.
+// Please after making a change to a page look carefully if the update needs to be done in a component or in the bootstrap variables.
+//
+// Styleguide
+
+@import "theme/theme";
+
+// General rules
+
+body {
+	width:1440px;
+	margin:0 auto;
+}
+
+p.bolder-text {
+	font-size:20px;
+	font-weight:bold;
+}

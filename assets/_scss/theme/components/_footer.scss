@@ -1,0 +1,29 @@
+// Footer
+//
+
+.footer {
+	background-color:$primary-footer-bg;
+	color:$primary-footer-font-color;
+	padding-top: 25px;
+	font-size:14px;
+	p {
+		font-style: italic;
+	}
+	.footer-logos img {
+		max-width: 100%;
+		height: auto;
+	}
+	.copyrights {
+		margin:30px 0 25px;
+	}
+	.cm-logo {
+		background-color: $primary-black-color;
+		color: $primary-light-font-color;
+		text-transform:uppercase;
+		text-align:center;
+		margin-top:40px;
+		padding:10px 5px;
+		width: 200px;
+		font-size:1.3em;
+	}
+}

@@ -1,0 +1,15 @@
+// Module-2
+//
+
+.modclass-2 {
+	background-color:$background-light-gray;
+	padding-bottom:70px;
+	// transform: rotate(-2deg);
+	.container-fluid{
+		//transform: rotate(2deg);
+	}
+	.box-container {
+		height:171px;
+		background-color:$box-gray-heavy;
+	}
+}
