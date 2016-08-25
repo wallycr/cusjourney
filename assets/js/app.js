@@ -1,0 +1,1 @@
+$( ".close" ).css( "display", "block" );
