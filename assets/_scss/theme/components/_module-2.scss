@@ -9,7 +9,13 @@
 		//transform: rotate(2deg);
 	}
 	.box-container {
-		height:171px;
-		background-color:$box-gray-heavy;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		img {
+			margin:0 5px;
+		}
 	}
 }

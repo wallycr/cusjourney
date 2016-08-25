@@ -5,11 +5,14 @@
 	.two-cols-container {
 	}
 	.two-cols {
+		background-image:url(../img/price.png);
+		background-repeat: no-repeat;
+		background-position: top center;
+		height:300px;
 		p {
 		}
 	}
 	.cut-diagram {
-		background-color:#F8E71C;
 		height:360px;
 		width:100%;
 	}

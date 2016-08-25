@@ -3,9 +3,11 @@
 
 .modclass-3 {
 	.box-container {
-		color:$primary-clear-font-color;
-		background-color:#86CD3E;
-		height:211px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;		
 		margin-bottom: 75px;
 	}
 }
