@@ -63,7 +63,10 @@ bower_components
 
 # Output folders
 dist
+<<<<<<< HEAD
 npm-debug.log
+=======
+>>>>>>> 3846a951f28a993dae762bc0b775394636438b51
 
 # hide the AWS and Rsync credentials file
 aws-credentials.json

@@ -4180,36 +4180,56 @@ input[type=checkbox] {
   background-color: #EAEAEA;
   padding-bottom: 70px; }
   .modclass-2 .box-container {
-    height: 171px;
-    background-color: #A7A3A3; }
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center; }
+    .modclass-2 .box-container img {
+      margin: 0 5px; }
 
 .modclass-3 .box-container {
-  color: #ffffff;
-  background-color: #86CD3E;
-  height: 211px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   margin-bottom: 75px; }
 
 .modclass-4 {
-  margin: 50px 0; }
+  margin: 50px 0 160px; }
   .modclass-4 h2 {
-    font-size: 95px;
-    color: #ffffff; }
+    font-size: 95px; }
+  .modclass-4 .hdb-left {
+    margin-top: 80px; }
   .modclass-4 .box3d {
-    background-color: #50E3C2;
     height: 507px;
     width: 774px;
     float: left;
-    margin-top: -386px; }
+    margin-top: -540px; }
 
 .modclass-6 h2 {
   font-size: 48px; }
 .modclass-6 .comparison-box {
-  background-color: #9013FE;
   width: 581px;
   height: 537px; }
 
+.modclass-8 .two-cols {
+  background-image: url(../img/price.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 300px; }
 .modclass-8 .cut-diagram {
-  background-color: #F8E71C;
   height: 360px;
   width: 100%; }
 
@@ -4240,13 +4260,14 @@ input[type=checkbox] {
 .modclass-12 .shawn {
   background-color: #F5A623; }
 
-.modclass-13 .chart {
-  float: left;
-  background-color: #50E3C2;
-  height: 462px;
-  width: 774px;
-  margin-top: -200px;
-  margin-left: -500px; }
+.modclass-13 {
+  margin-bottom: 200px; }
+  .modclass-13 .chart {
+    float: left;
+    height: 462px;
+    width: 774px;
+    margin-top: -200px;
+    margin-left: 600px; }
 
 .modclass-16 {
   background-repeat: no-repeat;
